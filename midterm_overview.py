@@ -45,6 +45,7 @@ valid_move = False
 winner = False
 
 while game_active:
+    print("\n\n\n")
     print_field(li)
     winner = False
     valid_move = False
@@ -71,6 +72,7 @@ while game_active:
             elif move == 'N':
                 exit()
     if not winner:
+        print("\n\n\n")
         print_field(li)
         while not valid_move:
             print("Player 2 (O) Choose:")
